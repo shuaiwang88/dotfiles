@@ -28,6 +28,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-commentary'
 Plug 'spf13/vim-autoclose'
 Plug 'JamshedVesuna/vim-markdown-preview' "markdown
+Plug 'junegunn/goyo.vim' "Distraction-free writing in Vim
 call plug#end()
 
 let vim_markdown_preview_github=1 "markdown
