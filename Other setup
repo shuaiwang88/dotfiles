@@ -7,3 +7,6 @@ sudo apt-­get install network-manager-pptp network-manager-vpnc network-manager
 $ nano /etc/apt/apt.conf
 Acquire::http::Proxy "http://USERNAME:PASSWORD@SERVER:PORT";
 Acquire::https::Proxy "https://USERNAME:PASSWORD@SERVER:PORT";
+
+# change default editor in ranger
+select-editor
