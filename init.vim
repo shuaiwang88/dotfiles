@@ -1,3 +1,4 @@
+
 "set runtimepath+=~/.vim_runtime
 :set nu
 :set relativenumber
@@ -37,11 +38,12 @@ Plug 'w0rp/ale' "syntax for python
 Plug 'vim-scripts/RltvNmbr.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'lervag/vimtex'
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-commentary'
 Plug 'spf13/vim-autoclose'
 Plug 'JamshedVesuna/vim-markdown-preview' "markdown
 Plug 'junegunn/goyo.vim' "Distraction-free writing in Vim
+Plug 'honza/vim-snippets' "Snippet
 "R nvim"
 Plug 'jalvesaq/Nvim-R'
 Plug 'roxma/nvim-completion-manager'
@@ -52,6 +54,16 @@ Plug 'jalvesaq/vimcmdline'
 call plug#end()
 
 let vim_markdown_preview_github=1 "markdown
+
+
+" -------Snippet setttings ----------------------
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumperForwardTrigger="<tab>"
+let g:UltiSnipsEditSplit="vertical"
+
+
+
 
 "-----------R nvim settings -----------------------------------------------------
 " settings :: Nvim-R plugin
@@ -71,13 +83,35 @@ autocmd VimResized * let R_rconsole_width = winwidth(0) / 2
 vmap <Space> <Plug>RDSendSelection
 nmap <Space> <Plug>RDSendLine
 
-nmap <LocalLeader>s <Plug>RStart
-
+" nmap <LocalLeader>st<Plug>RStart
+nmap <silent> <LocalLeader>h :call RAction('head', ', n = 10')<CR>
+" add pipe sign %>% for R file 
+autocmd FileType r inoremap <buffer> \> <Esc>:normal! a%>%<CR>a 
+autocmd FileType r inoremap <buffer> \i <Esc>:normal! a%in%<CR>a 
+autocmd FileType r inoremap <buffer> pyt <Esc>:normal! alibrary(reticulate);repl_python()<CR>a 
+" add pip sign %>% for rmd or other R related file
+" autocmd FileType rnoweb inoremap <buffer> > <Esc>:normal! a%>%<CR>a 
+" autocmd FileType rmd inoremap <buffer> > <Esc>:normal! a%>%<CR>a 
 " vimcmdline settings ---------------------
+" vimcmdline mappings
+let cmdline_map_start          = '<LocalLeader>rf'
+let cmdline_map_send           = '<Space>'
+let cmdline_map_send_and_stay  = '<LocalLeader><Space>'
+let cmdline_map_source_fun     = '<LocalLeader>ff'
+let cmdline_map_send_paragraph = '<LocalLeader>pp'
+let cmdline_map_send_block     = '<LocalLeader>bb'
+let cmdline_map_quit           = '<LocalLeader>rq'
 
+" vimcmdline options
+let cmdline_vsplit      = 1      " Split the window vertically
+let cmdline_esc_term    = 1      " Remap <Esc> to :stopinsert in Neovim's terminal
+let cmdline_in_buffer   = 1      " Start the interpreter in a Neovim's terminal
+let cmdline_term_height = 15     " Initial height of interpreter window or pane
+let cmdline_term_width  = 115     " Initial width of interpreter window or pane
+let cmdline_tmp_dir     = '/tmp' " Temporary directory to save files
+let cmdline_outhl       = 1      " Syntax highlight the output
 "---------------------------------------------------------------------
 "try
 "source ~/.vim_runtime/my_configs.vim
 "catch
 "endtry
-
