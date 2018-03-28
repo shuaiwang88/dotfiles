@@ -2,13 +2,23 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/focus/.oh-my-zsh
-export PS1="Shuai $ " # remove the git(master)
+export ZSH=/home/xxxx/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
+ZSH_THEME="random"
+alias la="ls -a"
+alias r="ranger"
+alias t="tmux"
+alias ta="tmux attach"
+alias vi="nvim"
+alias calc='calcurse -D /Google\ Drive/Personal/.calcurse'
+alias google='w3m google.com'
+KYETIMOUT=1
+#
+# using nvim as aditor
+export EDITOR=/user/bin/nvim
+export VISUAL=/user/bin/nvim
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -64,6 +74,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# export http_proxy=http://user:pass@10.254.xxx.xxx:3128
+# export https_proxy=$http_proxy
+# export ftp_proxy=$http_proxy
+# export no_proxy=localhost
+#
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
