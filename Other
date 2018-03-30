@@ -16,3 +16,8 @@ select-editor
 ln -sv “~/dotfiles/.zshrc” ~
 ln -sv "~/dotfiles/init.vim" ~/.config/nvim/
 ln -sv "~/dotfiles/.tmux.conf" ~
+
+# set up vim plugin manager
+# for nvim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
