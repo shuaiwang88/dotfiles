@@ -13,8 +13,19 @@ Acquire::https::Proxy "https://USERNAME:PASSWORD@SERVER:PORT";
 select-editor
 
 # creat the dotfile git and add symbolic link like 
+<<<<<<< HEAD
 # ln -sv "~/dotfiles/.tmux.conf" ~
 ln -s dotfiles/.tmux.conf .
 ln -s dotfiles/.zshrc .
 ln -s dotfiles/.init.vim ./.config/nvim
 
+=======
+ln -sv “~/dotfiles/.zshrc” ~
+ln -sv "~/dotfiles/init.vim" ~/.config/nvim/
+ln -sv "~/dotfiles/.tmux.conf" ~
+
+# set up vim plugin manager
+# for nvim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+>>>>>>> 7eb03416e87576239ca2291cfad592a0f6d7c9c1
