@@ -13,6 +13,8 @@ Acquire::https::Proxy "https://USERNAME:PASSWORD@SERVER:PORT";
 select-editor
 
 # creat the dotfile git and add symbolic link like 
-ln -sv “~/dotfiles/.zshrc” ~
-ln -sv "~/dotfiles/init.vim" ~/.config/nvim/
-ln -sv "~/dotfiles/.tmux.conf" ~
+# ln -sv "~/dotfiles/.tmux.conf" ~
+ln -s dotfiles/.tmux.conf .
+ln -s dotfiles/.zshrc .
+ln -s dotfiles/.init.vim ./.config/nvim
+
