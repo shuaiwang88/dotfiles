@@ -31,3 +31,21 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     
 # screenkey
 killall screenkey
+
+
+setupProxy <- function () 
+{
+    Sys.setenv(http_proxy = "http://10.254.16.12:3128/", http_proxy_user = "ask")
+    if (version$major <= 3 && version$minor < 3) {
+        utils::setInternet2(FALSE)
+    }
+    else if (version$major >= 3 && version$minor >= 3) {
+        options(download.file.method = "internal")
+    }
+    else {
+        warning("unknown version number: ", version$major, ".",
+            version$minor)
+    }
+}
+ 
+setupProxy()
