@@ -35,7 +35,7 @@ killall screenkey
 
 setupProxy <- function () 
 {
-    Sys.setenv(http_proxy = "http://10.254.16.12:3128/", http_proxy_user = "ask")
+    Sys.setenv(http_proxy = "http://10.2/", http_proxy_user = "ask")
     if (version$major <= 3 && version$minor < 3) {
         utils::setInternet2(FALSE)
     }
