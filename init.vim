@@ -6,6 +6,7 @@ set tw=79 "width of the documents
 set nowrap " Don't auto wrap on load
 set fo-=t " Don't wrap text when type
 set colorcolumn=80
+colorscheme elflord
 highlight ColorColumn ctermbg=233
 " easier formatting paragraph
 vmap Q gp
@@ -89,6 +90,10 @@ nmap <silent> <LocalLeader>h :call RAction('head', ', n = 10')<CR>
 autocmd FileType r inoremap <buffer> \> <Esc>:normal! a%>%<CR>a 
 autocmd FileType r inoremap <buffer> \i <Esc>:normal! a%in%<CR>a 
 autocmd FileType r inoremap <buffer> pyt <Esc>:normal! alibrary(reticulate);repl_python()<CR>a 
+
+" add shortcut for python
+autocmd FileType py inoremap <buffer> = <Esc>:normal! a=<CR>a 
+
 " add pip sign %>% for rmd or other R related file
 " autocmd FileType rnoweb inoremap <buffer> > <Esc>:normal! a%>%<CR>a 
 " autocmd FileType rmd inoremap <buffer> > <Esc>:normal! a%>%<CR>a 
