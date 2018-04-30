@@ -10,3 +10,10 @@ They are minimal tools to write and run code inside neovim enviroment.
 
 ## markdown and latex
 I use [goyo](https://github.com/junegunn/goyo.vim) and [vimtex](https://github.com/lervag/vimtex) for documenting.
+
+
+
+License
+-------
+
+MIT
