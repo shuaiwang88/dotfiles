@@ -49,3 +49,8 @@ setupProxy <- function ()
 }
  
 setupProxy()
+
+
+
+sudo apt-get install libssl-dev
+
