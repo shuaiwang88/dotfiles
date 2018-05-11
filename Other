@@ -9,7 +9,9 @@ $ nano /etc/apt/apt.conf
 Acquire::http::Proxy "http://USERNAME:PASSWORD@SERVER:PORT";
 Acquire::https::Proxy "https://USERNAME:PASSWORD@SERVER:PORT";
 
-# change default editor in ranger
+# ranger -------------------------
+# change in ~/.config/ranger/rifle.conf
+has xdg-open, flag f = xdg-open "$1"
 select-editor
 
 # creat the dotfile git and add symbolic link like 
