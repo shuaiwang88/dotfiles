@@ -7,9 +7,14 @@ sudo apt-­get install network-manager-pptp network-manager-vpnc network-manager
 sudo apt install Xmodmap
 touch .Xmodmap
 echo
-'xmodmap -e "remove lock = Caps_Lock"
-xmodmap -e "keycode 66 = Control_L"
-xmodmap -e "add control = Control_L"' >> .Xmodmap
+'remove lock = Caps_Lock
+keycode 66 = Control_L
+add control = Control_L' >> .Xmodmap
+
+touch .xinitrc
+xmodmap ~/.Xmodmap
+
+# https://askubuntu.com/questions/54157/how-do-i-set-xmodmap-on-login
 
 # setup proxy for apt
 $ nano /etc/apt/apt.conf
