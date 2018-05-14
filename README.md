@@ -3,6 +3,7 @@
 * Tmux
 * NeoVim
 * zsh
+* i3
 
 ## R and python programming
 I use [Nvim-R](https://github.com/jalvesaq/Nvim-R) and [vimcmdline](https://github.com/jalvesaq/vimcmdline).
