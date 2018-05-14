@@ -3,6 +3,13 @@ echo "set completion-ignore-case On" >> ~/.inputrc
 sudo apt-get install network-manager-openconnect-gnome
 
 sudo apt-­get install network-manager-pptp network-manager-vpnc network-manager-openvpn
+# xmodmap keyboard
+sudo apt install Xmodmap
+touch .Xmodmap
+cat
+'xmodmap -e "remove lock = Caps_Lock"
+xmodmap -e "keycode 66 = Control_L"
+xmodmap -e "add control = Control_L"' >> .Xmodmap
 
 # setup proxy for apt
 $ nano /etc/apt/apt.conf
