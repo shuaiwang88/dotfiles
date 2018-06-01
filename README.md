@@ -4,6 +4,7 @@
 * NeoVim
 * zsh
 * i3
+* keyboard mapping for standard 108 keys, laptop, and HHKB keyboad.
 
 ## R and python programming
 I use [Nvim-R](https://github.com/jalvesaq/Nvim-R) and [vimcmdline](https://github.com/jalvesaq/vimcmdline).
