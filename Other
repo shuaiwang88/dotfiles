@@ -86,4 +86,4 @@ git config --global credential.helper 'cache --timeout=3600'
 https://askubuntu.com/questions/161759/how-to-access-a-shared-folder-in-virtualbox
 
 # starbucks wifi
-echo >> "172.31.98.1 aruba.odyssys.net" ~/../../hosts
+echo "172.31.98.1 aruba.odyssys.net" >> ~/../../hosts
