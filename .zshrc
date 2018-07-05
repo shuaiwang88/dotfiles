@@ -16,9 +16,10 @@ alias r="ranger"
 alias t="tmux"
 alias ta="tmux attach"
 alias vi="nvim"
-alias calc='calcurse -D /Google\ Drive/Personal/.calcurse'
+alias calc='calcurse -D ~/Google\ Drive/Personal/.calcurse'
 alias google='w3m google.com'
 alias jn='jupyter notebook'
+alias wip='cd ~/../../media/SF'
 KYETIMOUT=1
 #
 # using nvim as aditor
