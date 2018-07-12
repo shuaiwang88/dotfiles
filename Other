@@ -87,3 +87,6 @@ https://askubuntu.com/questions/161759/how-to-access-a-shared-folder-in-virtualb
 
 # starbucks wifi
 echo "172.31.98.1 aruba.odyssys.net" >> ~/../../hosts
+
+
+https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy
