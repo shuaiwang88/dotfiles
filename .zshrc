@@ -18,7 +18,7 @@ alias ta="tmux attach"
 alias vi="nvim"
 alias calc='calcurse -D ~/Google\ Drive/Personal/.calcurse'
 alias google='w3m google.com'
-alias jn='jupyter notebook'
+alias jn='jupyter lab'
 alias wip='cd ~/../../media/SF'
 KYETIMOUT=1
 #
