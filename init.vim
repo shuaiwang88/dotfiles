@@ -36,7 +36,7 @@ Plug 'godlygeek/tabular'
 " Plug 'scrooloose/nerdtree'
 " Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale' "syntax for python
-Plug 'ervadew/supertab' "super tab
+Plug 'ervandew/supertab' "super tab
 Plug 'vim-scripts/RltvNmbr.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'lervag/vimtex'
