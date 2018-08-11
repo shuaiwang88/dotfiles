@@ -1,0 +1,4 @@
+# redshift monitor brightness
+DISPLAY=:0.0
+0 21 * * * redshift -O 1000
+0 6 * * *  redshift -O 6500
