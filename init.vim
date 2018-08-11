@@ -64,6 +64,12 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumperForwardTrigger="<tab>"
 let g:UltiSnipsEditSplit="vertical"
 
+" -------- add/remove quote to a word 
+" 'quote' a word
+" double "quote" a word
+nnoremap <Leader>qw ciw""<Esc>P
+" remove quotes from a word
+nnoremap wq :silent! normal mpeld bhd `ph<CR>
 
 
 
