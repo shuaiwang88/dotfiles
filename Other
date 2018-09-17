@@ -92,3 +92,4 @@ echo "172.31.98.1 aruba.odyssys.net" >> ~/../../hosts
 https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy
 pip install --proxy=https://user@mydomain:port somepackage
 
+python -m pip install featuretools pandas numpy scipy scikit-learn matplotlib seaborn
