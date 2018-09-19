@@ -3,7 +3,7 @@
 * Tmux
 * NeoVim
 * zsh
-* i3
+* i3: forked from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.config/i3/config)
 * keyboard mapping for standard 108 keys, laptop, and HHKB keyboad.
 
 ## R and python programming
