@@ -3,13 +3,8 @@ echo "set completion-ignore-case On" >> ~/.inputrc
 sudo apt-get install network-manager-openconnect-gnome
 
 sudo apt-­get install network-manager-pptp network-manager-vpnc network-manager-openvpn
-# xmodmap keyboard
-sudo apt install Xmodmap
-touch .Xmodmap
-echo
-'remove lock = Caps_Lock
-keycode 66 = Control_L
-add control = Control_L' >> .Xmodmap
+# change ca
+echo 'setxkbmap -option ctrl:nocaps' >> .profile
 
 touch .xinitrc
 xmodmap ~/.Xmodmap
