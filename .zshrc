@@ -11,6 +11,8 @@ export ZSH=/Users/shuaiwang/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="random"
+export PATH="/home/vanstark/miniconda3/bin:$PATH"                               
+export PATH="/home/vanstark/Documents/software/julia-1.0.0/bin:$PATH"  
 alias la="ls -a"
 alias r="ranger"
 alias t="tmux"
