@@ -45,7 +45,7 @@ Plug 'tpope/vim-commentary'
 Plug 'spf13/vim-autoclose'
 Plug 'JamshedVesuna/vim-markdown-preview' "markdown
 Plug 'junegunn/goyo.vim' "Distraction-free writing in Vim
-Plug 'xolox/vim-notes'
+" Plug 'xolox/vim-notes'
 Plug 'honza/vim-snippets' "Snippet
 "R nvim"
 Plug 'jalvesaq/Nvim-R'
@@ -54,6 +54,7 @@ Plug 'gaalcaras/ncm-R'
 Plug 'chrisbra/csv.vim'
 "python plugin
 Plug 'jalvesaq/vimcmdline'
+Plug 'szymonmaszke/vimpyter'
 call plug#end()
 
 let vim_markdown_preview_github=1 "markdown
