@@ -17,6 +17,9 @@ nmap Q gpaq
 syntax on
 :au FocusLost * :wa "Always autosave everything
 
+set nocompatible
+filetype plugin on
+
 autocmd FileType latex,tex,md,markdown setlocal spell
 " autocmd FileType R setlocal shiftwidth=2 tabstop=2 expandtab
 ""source ~/.vim_runtime/vimrcs/basic.vim
