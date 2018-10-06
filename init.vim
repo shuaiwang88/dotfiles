@@ -78,7 +78,8 @@ nnoremap <Leader>qw ciw""<Esc>P
 nnoremap wq :silent! normal mpeld bhd `ph<CR>
 
 
-
+"---------------vimwiki---------------------------------------
+let g:vimwiki_list = [{'path': '~/Google\ Drive/Personal/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
 "-----------R nvim settings -----------------------------------------------------
 " settings :: Nvim-R plugin
 " R output is highlighted with current colorscheme
