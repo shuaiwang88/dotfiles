@@ -49,6 +49,7 @@ Plug 'spf13/vim-autoclose'
 Plug 'JamshedVesuna/vim-markdown-preview' "markdown
 Plug 'junegunn/goyo.vim' "Distraction-free writing in Vim
 " Plug 'xolox/vim-notes'
+Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
 Plug 'honza/vim-snippets' "Snippet
 "R nvim"
 Plug 'jalvesaq/Nvim-R'
