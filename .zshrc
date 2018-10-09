@@ -3,14 +3,16 @@
 
 # Path to your oh-my-zsh installation.
 # for linux
-# export ZSH=/home/xxxx/.oh-my-zsh
+export ZSH=/home/xxxx/.oh-my-zsh
 # for mac
-export ZSH=/Users/shuaiwang/.oh-my-zsh
+# export ZSH=/Users/shuaiwang/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="random"
+
+export PATH=$PATH:~/.local/bin
 export PATH="/home/vanstark/miniconda3/bin:$PATH"                               
 export PATH="/home/vanstark/Documents/software/julia-1.0.0/bin:$PATH"  
 alias la="ls -a"
@@ -78,6 +80,7 @@ export VISUAL=/user/bin/nvim
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
