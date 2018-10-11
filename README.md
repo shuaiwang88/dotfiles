@@ -1,5 +1,5 @@
 # dotfiles
-# The dotfiles include tools I use for data modeling related project such as:
+# The dotfiles include tools I use on daily basis:
 * Tmux
 * NeoVim
 * zsh
