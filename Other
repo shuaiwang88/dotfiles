@@ -88,3 +88,7 @@ https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-th
 pip install --proxy=https://user@mydomain:port somepackage
 
 python -m pip install featuretools pandas numpy scipy scikit-learn matplotlib seaborn
+
+# nvim
+sed -i.bu 's/async=True/**{"async": True}/' ~/.local/share/nvim/plugged/nvim-completion-manager/pythonx/cm_start.py
+sed -i.bu 's/async=True/**{"async": True}/' ~/.local/share/nvim/plugged/nvim-completion-manager/pythonx/cm_core.py
