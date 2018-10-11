@@ -11,7 +11,7 @@ I use [Nvim-R](https://github.com/jalvesaq/Nvim-R) for R and [vimcmdline](https:
 They are minimal ide to write and run code inside neovim enviroment.  
 
 ## markdown and latex
-I use [goyo](https://github.com/junegunn/goyo.vim) and [vimtex](https://github.com/lervag/vimtex), [vimwiki](https://github.com/vimwiki/vimwiki) for writing. 
+I use [goyo](https://github.com/junegunn/goyo.vim), [vimtex](https://github.com/lervag/vimtex), ad [vimwiki](https://github.com/vimwiki/vimwiki) for writing and managing documents. 
 
 
 
