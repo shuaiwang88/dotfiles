@@ -24,6 +24,7 @@ alias calc='calcurse -D ~/Google\ Drive/Personal/.calcurse'
 alias google='w3m google.com'
 alias jn='jupyter notebook'
 alias wip='cd ~/../../media/SF'
+alias lock="i3lock"
 KYETIMOUT=1
 #
 # using nvim as aditor
