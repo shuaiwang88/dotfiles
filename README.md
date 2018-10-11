@@ -7,7 +7,7 @@
 * keyboard mapping for standard 108 keys, laptop, and HHKB keyboad.
 
 ## R, Python, and Julia programming
-I use [Nvim-R](https://github.com/jalvesaq/Nvim-R) for and [vimcmdline](https://github.com/jalvesaq/vimcmdline) for python and julia.
+I use [Nvim-R](https://github.com/jalvesaq/Nvim-R) for R and [vimcmdline](https://github.com/jalvesaq/vimcmdline) for python and julia.
 They are minimal ide to write and run code inside neovim enviroment.  
 
 ## markdown and latex
