@@ -26,6 +26,7 @@ alias jn='jupyter notebook'
 alias wip='cd ~/../../media/SF'
 alias lock="i3lock"
 KYETIMOUT=1
+export BROWSER="firefox"
 #
 # using nvim as aditor
 export EDITOR=/user/bin/nvim
