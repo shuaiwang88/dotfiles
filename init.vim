@@ -58,7 +58,7 @@ Plug 'gaalcaras/ncm-R'
 Plug 'chrisbra/csv.vim'
 "python plugin
 Plug 'jalvesaq/vimcmdline'
-Plug 'szymonmaszke/vimpyter'
+"Plug 'szymonmaszke/vimpyter'
 call plug#end()
 
 let vim_markdown_preview_github=1 "markdown
