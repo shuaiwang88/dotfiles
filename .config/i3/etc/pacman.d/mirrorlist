@@ -1,4 +1,5 @@
 ## Country : United_States
+# /etc/pacman.d
 Server = https://mirror.math.princeton.edu/pub/manjaro/stable/$repo/$arch
 
 
