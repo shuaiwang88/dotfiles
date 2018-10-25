@@ -3,7 +3,7 @@
 * Tmux
 * NeoVim
 * zsh
-* windows manger: i3: forked from [Luke Smith](https://github.com/LukeSmithxyz/voidrice/blob/master/.config/i3/config)
+* windows manger: i3wm
 * keyboard mapping for standard 108 keys, laptop, and HHKB keyboad.
 
 ## R, Python, and Julia programming
