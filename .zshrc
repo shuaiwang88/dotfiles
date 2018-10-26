@@ -64,3 +64,7 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+export GUROBI_HOME="/home/vanstark/software/gurobi810/linux64"                  
+export PATH="${PATH}:${GUROBI_HOME}/bin"                                        
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"                  
+export GRB_LICENSE_FILE="$HOME/gurobi.lic"  
