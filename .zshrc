@@ -15,6 +15,7 @@ ZSH_THEME="random"
 export PATH=$PATH:~/.local/bin
 export PATH="/home/vanstark/miniconda3/bin:$PATH"                               
 export PATH="/home/vanstark/Documents/software/julia-1.0.0/bin:$PATH"  
+export PATH="/home/vanstark/software/MiniZincIDE-2.2.3-bundle-linux/bin:$PATH" 
 alias la="ls -a"
 alias r="ranger"
 alias t="tmux"
