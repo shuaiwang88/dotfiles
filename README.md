@@ -4,7 +4,7 @@
 * NeoVim
 * zsh
 * windows manger: i3wm
-* keyboard mapping for standard 108 keys, laptop, and HHKB keyboad.
+* keyboard mapping for standard 108 keys, laptop, IBM Model M, and HHKB keyboad.
 
 ## R, Python, and Julia programming
 I use [Nvim-R](https://github.com/jalvesaq/Nvim-R) for R and [vimcmdline](https://github.com/jalvesaq/vimcmdline) for python and julia.
