@@ -20,6 +20,10 @@ syntax on
 set nocompatible
 filetype plugin on
 
+" set minizinc type to matlab
+autocmd BufNewFile,BufRead *.dzn set filetype=matlab
+autocmd BufNewFile,BufRead *.mzn set filetype=matlab
+
 autocmd FileType latex,tex,md,markdown setlocal spell
 " autocmd FileType R setlocal shiftwidth=2 tabstop=2 expandtab
 ""source ~/.vim_runtime/vimrcs/basic.vim
