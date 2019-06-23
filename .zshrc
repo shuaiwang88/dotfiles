@@ -27,6 +27,7 @@ alias google='w3m google.com'
 alias jn='jupyter notebook'
 alias wip='cd ~/../../media/SF'
 alias lock="i3lock"
+alias battery='pmset -g batt' # mac
 KYETIMOUT=1
 export BROWSER="firefox"
 #
