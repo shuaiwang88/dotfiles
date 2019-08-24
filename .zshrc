@@ -32,8 +32,8 @@ KYETIMOUT=1
 export BROWSER="firefox"
 #
 # using nvim as aditor
-export EDITOR=/user/bin/nvim
-export VISUAL=/user/bin/nvim
+export EDITOR=/usr/bin/nvim
+export VISUAL=/usr/bin/nvim
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
