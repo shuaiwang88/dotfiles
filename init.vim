@@ -64,6 +64,8 @@ Plug 'chrisbra/csv.vim'
 Plug 'jalvesaq/vimcmdline'
 "Plug 'szymonmaszke/vimpyter'
 Plug 'vale1410/vim-minizinc'
+"git client
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 let vim_markdown_preview_github=1 "markdown
