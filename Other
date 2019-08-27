@@ -11,6 +11,13 @@ xmodmap ~/.Xmodmap
 
 # https://askubuntu.com/questions/54157/how-do-i-set-xmodmap-on-login
 
+
+# build youcompleme
+
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --clang-completer
+
+
 # setup proxy for apt
 $ nano /etc/apt/apt.conf
 Acquire::http::Proxy "http://USERNAME:PASSWORD@SERVER:PORT";
