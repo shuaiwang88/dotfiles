@@ -47,7 +47,7 @@ Plug 'ervandew/supertab' "super tab
 Plug 'vim-scripts/RltvNmbr.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'lervag/vimtex'
-" Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-commentary'
 Plug 'spf13/vim-autoclose'
 Plug 'JamshedVesuna/vim-markdown-preview' "markdown
@@ -57,7 +57,6 @@ Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
 Plug 'honza/vim-snippets' "Snippet
 "R nvim"
 Plug 'jalvesaq/Nvim-R'
-Plug 'roxma/nvim-completion-manager'
 Plug 'gaalcaras/ncm-R'
 Plug 'chrisbra/csv.vim'
 "python plugin
@@ -129,7 +128,7 @@ let cmdline_map_send_block     = '<LocalLeader>bb'
 let cmdline_map_quit           = '<LocalLeader>rq'
 
 " vimcmdline options
-let cmdline_vsplit      = 1      " Split the window vertically
+" let cmdline_vsplit      = 1      " Split the window vertically
 let cmdline_esc_term    = 1      " Remap <Esc> to :stopinsert in Neovim's terminal
 let cmdline_in_buffer   = 1      " Start the interpreter in a Neovim's terminal
 let cmdline_term_height = 15     " Initial height of interpreter window or pane
