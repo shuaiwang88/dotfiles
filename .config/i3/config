@@ -34,7 +34,7 @@ set $term --no-startup-id deepin-terminal
 bindsym $mod+Return exec $term
 
 # broswer
-bindsym $mod+Shift+w exec --no-startup-id firefox
+bindsym $mod+Shift+w exec --no-startup-id google-chrome-stable
 
 # kill focused window
 bindsym $mod+q kill
@@ -63,7 +63,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; notify-send 'brightness d
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec firefox
+bindsym $mod+F2 exec google-chrome-stable
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+Shift+f exec deepin-terminal -e ranger 
 bindsym $mod+Shift+F3 exec gksu pcmanfm
