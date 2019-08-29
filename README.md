@@ -3,7 +3,7 @@
 * Tmux
 * NeoVim
 * zsh
-* windows manger: i3wm
+* window manger: i3wm
 * keyboard mapping for standard 108 keys, laptop, IBM Model M, and HHKB keyboad.
 
 ## R, Python, and Julia programming
