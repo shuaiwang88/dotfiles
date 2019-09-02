@@ -1,8 +1,11 @@
 echo "set completion-ignore-case On" >> ~/.inputrc
 ## install cisco anyconnect 
 sudo apt-get install network-manager-openconnect-gnome
-
+###############i3 ######################################
+https://github.com/haikarainen/light
 https://www.reddit.com/r/archlinux/comments/1pbxci/mute_key_mutesbut_wont_unmute/
+####################################################
+
 
 sudo apt-­get install network-manager-pptp network-manager-vpnc network-manager-openvpn
 # change ca
