@@ -2,22 +2,25 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-# for linux
-export ZSH=/home/xxxx/.oh-my-zsh
-# for mac
-# export ZSH=/Users/shuaiwang/.oh-my-zsh
+export ZSH="/home/janice/.oh-my-zsh"
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="random"
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+ZSH_THEME="skaro"
 
 export PATH=$PATH:~/.local/bin
-export PATH="/home/vanstark/miniconda3/bin:$PATH"                               
-export PATH="/home/vanstark/Documents/software/julia-1.0.0/bin:$PATH"  
-export PATH="/home/vanstark/software/MiniZincIDE-2.2.3-bundle-linux/bin:$PATH" 
-alias la="ls -a"
+export PATH="/home/janice/miniconda3/bin:$PATH"                               
+export PATH="/home/janice/software/julia/bin:$PATH"  
+export PATH="/home/janice/software/MiniZincIDE-2.3.1-bundle-linux/bin:$PATH" 
+alias mini="/home/janice/software/MiniZincIDE-2.3.1-bundle-linux/bin/MiniZincIDE"
+alias ll="ls -alt"
 alias r="ranger"
+alias f="vifm"
 alias t="tmux"
 alias ta="tmux attach"
 alias vi="nvim"
@@ -29,7 +32,7 @@ alias wip='cd ~/../../media/SF'
 alias lock="i3lock"
 alias battery='pmset -g batt' # mac
 KYETIMOUT=1
-export BROWSER="firefox"
+export BROWSER="google-chrome-stable"
 #
 # using nvim as aditor
 export EDITOR=/usr/bin/nvim
@@ -66,7 +69,8 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
-export GUROBI_HOME="/home/vanstark/software/gurobi810/linux64"                  
+export GUROBI_HOME="/home/janice/software/gurobi/linux64"                  
 export PATH="${PATH}:${GUROBI_HOME}/bin"                                        
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"                  
 export GRB_LICENSE_FILE="$HOME/gurobi.lic"  
+
