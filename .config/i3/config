@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod1
+set $mod Mod4
 
 
 # set default desktop layout (default is tiling)
@@ -65,7 +65,7 @@ bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec firefox
+bindsym $mod+F2 exec google-chrome-stable
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+Shift+f exec deepin-terminal -e ranger 
 bindsym $mod+Shift+F3 exec gksu pcmanfm
@@ -124,8 +124,8 @@ bindsym $mod+Shift+s		gaps inner current minus 5
 bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0
 
 # change container layout (stacked, tabbed, toggle split) bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+# bindsym $mod+w layout tabbed
+# bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -154,12 +154,12 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1:
-set $ws2 2:Term 
-set $ws3 3:File
+set $ws1 1:Term 
+set $ws2 2:
+set $ws3 3:Task
 set $ws4 4:Read
-set $ws5 5:Task
-set $ws6 6:VPN
+set $ws5 5:File
+set $ws6 6
 set $ws7 7
 set $ws8 8
 
@@ -362,18 +362,18 @@ client.background $black
 
 
 bar {
-	# font pango:mono 12
-	# colors {
-	# 		background $darkblack
-	# 		statusline $darkwhite
-	# 		separator $cyan
-	# 		focused_workspace  $blue $darkblue $darkblack
-        		# active_workspace   $blue $blue $darkwhite
-      			# inactive_workspace $darkblack $darkblack $white
-        		# urgent_workspace   $darkblack $darkblack $white
-	# 	}
+	font pango:mono 10
+	colors {
+			background $darkblack
+			statusline $darkwhite
+			separator $cyan
+			focused_workspace  $blue $darkblue $darkblack
+        		active_workspace   $blue $blue $darkwhite
+      			inactive_workspace $darkblack $darkblack $white
+        		urgent_workspace   $darkblack $darkblack $white
+		}
 	status_command i3blocks
-    # -c ~/.config/i3blocks/config
+  # -c ~/.config/i3blocks/config
     # status_command i3status
 	position top
 	mode dock
