@@ -14,7 +14,7 @@ They are lightweight yet powerful IDE to write and run code inside neovim enviro
 I use ~~[goyo](https://github.com/junegunn/goyo.vim), [vimtex](https://github.com/lervag/vimtex), and [vimwiki](https://github.com/vimwiki/vimwiki)~~ [org-mode](https://www.orgmode.org) in [spacemacs](https://github.com/syl20bnr/spacemacs) ~~for writing and managing documents.~~ to manange my life. 
 
 ## Math modeling
-I use [Minizinc](https://github.com/MiniZinc) to model optimization problem, [COINOR-CBC](https://github.com/coin-or/Cbc) as default solver.
+I use [Minizinc](https://github.com/MiniZinc) to model optimization problem, and [COINOR-CBC](https://github.com/coin-or/Cbc) as default solver.
 
 License
 -------
