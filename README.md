@@ -2,6 +2,7 @@
 # The dotfiles include tools I use on daily basis:
 * Tmux
 * NeoVim
+* Spacemacs
 * zsh
 * window manger: i3wm
 * keyboard mapping for standard 108 keys, laptop, IBM Model M, and HHKB keyboad.
