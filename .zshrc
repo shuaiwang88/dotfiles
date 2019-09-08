@@ -25,6 +25,7 @@ alias t="tmux"
 alias ta="tmux attach"
 alias vi="nvim"
 alias sv="sudo nvim"
+alias e="emacs"
 alias calc='calcurse -D ~/Google\ Drive/Personal/.calcurse'
 alias google='w3m google.com'
 alias jn='jupyter notebook'
