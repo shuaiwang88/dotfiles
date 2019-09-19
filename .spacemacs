@@ -54,10 +54,10 @@ values."
      version-control
 
      (org :variables
-org-enable-org-journal-support t
-org-journal-dir "~/Dropbox/org/journal/2019"
-org-journal-file-type "monthly"
-org-journal-file-format "%Y-%m.org"
+          org-enable-org-journal-support t
+          org-journal-dir "~/Dropbox/org"
+          org-journal-file-type "monthly"
+          org-journal-file-format "%Y-%m.org"
 )
      )
    ;; List of additional packages that will be installed without being
