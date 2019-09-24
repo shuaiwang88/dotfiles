@@ -63,6 +63,8 @@ Plug 'chrisbra/csv.vim'
 Plug 'jalvesaq/vimcmdline'
 "Plug 'szymonmaszke/vimpyter'
 Plug 'vale1410/vim-minizinc'
+" Julia
+Plug 'JuliaEditorSupport/julia-vim'
 "git client
 Plug 'tpope/vim-fugitive'
 call plug#end()
