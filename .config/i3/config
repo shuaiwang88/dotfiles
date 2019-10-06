@@ -297,6 +297,8 @@ exec google-chrome-stable
 exec deepin-terminal
 exec redshift-gtk
 exec dropbox
+exec /opt/thefanclub/overgrive/venv/bin/python3 /opt/thefanclub/overgrive/overgrive
+
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
 # exec --no-startup-id start_conky_maia
