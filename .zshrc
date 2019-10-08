@@ -11,12 +11,13 @@ export ZSH="/home/janice/.oh-my-zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-ZSH_THEME="skaro"
+ZSH_THEME="cloud"
 
 export PATH=$PATH:~/.local/bin
 export PATH="/home/janice/miniconda3/bin:$PATH"                               
 export PATH="/home/janice/software/julia/bin:$PATH"  
 export PATH="/home/janice/software/MiniZincIDE-2.3.1-bundle-linux/bin:$PATH" 
+export PATH="/home/janice/.gem/ruby/2.6.0/bin:$PATH"
 alias mini="/home/janice/software/MiniZincIDE-2.3.1-bundle-linux/bin/MiniZincIDE"
 alias ll="ls -alt"
 alias r="ranger"
@@ -25,7 +26,7 @@ alias t="tmux"
 alias ta="tmux attach"
 alias vi="nvim"
 alias sv="sudo nvim"
-alias e="emacs"
+alias e="emacs -nw"
 alias calc='calcurse -D ~/Google\ Drive/Personal/.calcurse'
 alias google='w3m google.com'
 alias jn='jupyter notebook'
@@ -47,7 +48,7 @@ COMPLETION_WAITING_DOTS="true"
 
 plugins=(
   git
-  vi-mode
+  # vi-mode
   archlinux
 )
 
