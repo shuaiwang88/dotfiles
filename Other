@@ -11,8 +11,8 @@ sudo apt-­get install network-manager-pptp network-manager-vpnc network-manager
 # change ca
 echo 'setxkbmap -option ctrl:nocaps' >> .profile
 
-touch .xinitrc
-xmodmap ~/.Xmodmap
+# touch .xinitrc
+# xmodmap ~/.Xmodmap
 
 # https://askubuntu.com/questions/54157/how-do-i-set-xmodmap-on-login
 
