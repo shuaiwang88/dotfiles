@@ -6,6 +6,7 @@ set tw=79 "width of the documents
 set nowrap " Don't auto wrap on load
 set fo-=t " Don't wrap text when type
 set colorcolumn=80
+:setlocal spell spelllang=en_us
 colorscheme elflord
 highlight ColorColumn ctermbg=233
 " easier formatting paragraph
