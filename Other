@@ -5,6 +5,10 @@ sudo apt-get install network-manager-openconnect-gnome
 https://github.com/haikarainen/light
 https://www.reddit.com/r/archlinux/comments/1pbxci/mute_key_mutesbut_wont_unmute/
 ####################################################
+## download file from github
+
+curl -LJO link
+
 
 git clone https://github.com/borgnix/spacemacs-journal.git ~/.emacs.d/private/journal
 
