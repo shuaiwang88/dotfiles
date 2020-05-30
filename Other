@@ -93,6 +93,9 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 # Set the cache to timeout after 1 hour (setting is in seconds)
 
+git config --global http.proxy http://zz:xxx@10.xxxxxx:3128
+git config --global https.proxy http://zzz:xxx@10.2xxxxx:3128
+
 
 # virtualbox
 https://askubuntu.com/questions/161759/how-to-access-a-shared-folder-in-virtualbox
