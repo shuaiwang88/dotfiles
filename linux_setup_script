@@ -1,10 +1,7 @@
 sudo apt update && sudo apt upgrade
 sudo apt install neovim tmux emacs htop neofetch zsh xml2 libxml2-dev libssl-dev libcurl4-openssl-dev unixodbc-dev dirmngr gnupg apt-transport-https ca-certificates software-properties-common texlive-base gdebi-core pandoc
 
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cd .config && sudo mkdir nvim  
-sudo cp -s dotfiles/init.vim ./.config/nvim/
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 cd ~
@@ -40,3 +37,8 @@ rm .zshrc
 ln -s dotfiles/.zshrc .zshrc
 rm .spacemacs
 ln -s dotfiles/.spacemacs .spacemacs
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cd .config && sudo mkdir nvim  
+sudo cp dotfiles/init.vim ./.config/nvim/
