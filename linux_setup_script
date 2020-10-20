@@ -32,13 +32,14 @@ git clone https://github.com/borgnix/spacemacs-journal.git ~/.emacs.d/private/jo
 
 cd ~
 git clone https://github.com/shuaiwang88/dotfiles.git
-ln -s dotfiles/.tmux.conf .tmux.conf
-rm .zshrc
-ln -s dotfiles/.zshrc .zshrc
-rm .spacemacs
-ln -s dotfiles/.spacemacs .spacemacs
+cp dotfiles/.tmux.conf .tmux.conf
+#rm .zshrc
+cp dotfiles/.zshrc .zshrc
+#rm .spacemacs
+cp dotfiles/.spacemacs .spacemacs
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cd .config && sudo mkdir nvim  
+cd .config && sudo mkdir nvim
+cd ~
 sudo cp dotfiles/init.vim ./.config/nvim/
