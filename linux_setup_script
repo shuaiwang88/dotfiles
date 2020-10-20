@@ -20,7 +20,7 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
 
-python -m pip install featuretools pandas numpy scipy scikit-learn matplotlib seaborn
+python -m pip install featuretools pandas numpy scipy scikit-learn matplotlib seaborn neovim
 
 sudo apt install grip rtv ranger tlp
 
