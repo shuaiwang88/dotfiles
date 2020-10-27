@@ -1,5 +1,5 @@
 sudo apt update && sudo apt upgrade
-sudo apt install neovim tmux emacs htop neofetch zsh xml2 libxml2-dev libssl-dev libcurl4-openssl-dev unixodbc-dev dirmngr gnupg apt-transport-https ca-certificates software-properties-common texlive-base gdebi-core pandoc
+sudo apt install pandoc neovim tmux emacs htop neofetch zsh xml2 libxml2-dev libssl-dev libcurl4-openssl-dev unixodbc-dev dirmngr gnupg apt-transport-https ca-certificates software-properties-common texlive-base gdebi-core pandoc
 
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
