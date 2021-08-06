@@ -49,7 +49,7 @@ sudo cp dotfiles/init.vim ./.config/nvim/
 R
 
 packages <- c("ggplot2", "readxl", "dplyr", "tidyr", "ggfortify",
-"DT", "reshape2", "knitr", "lubridate", "shiny", "arrow", 
+"DT", "reshape2", "knitr", "lubridate", "shiny", "arrow", "digest",
 "shinydashboard", "shinycssloaders", "tidyverse")
 
 # Install packages not yet installed
