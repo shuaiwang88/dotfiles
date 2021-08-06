@@ -58,6 +58,7 @@ if (any(installed_packages == FALSE)) {
   install.packages(packages[!installed_packages])
 }
 
+Sys.setenv(LIBARROW_BINARY = TRUE); install.packages('arrow', type = "source")
 
 #sudo su - -c "R -e "install.packages(c("ggplot2", "readxl", "dplyr", "tidyr", "ggfortify","DT", "reshape2", "knitr", "lubridate", "shiny", "arrow", "digest","shinydashboard", "shinycssloaders", "tidyverse", "rmarkdown"), repos='https://cran.rstudio.com/')""
 
