@@ -43,3 +43,17 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 cd .config && sudo mkdir nvim
 cd ~
 sudo cp dotfiles/init.vim ./.config/nvim/
+
+
+
+R
+
+packages <- c("ggplot2", "readxl", "dplyr", "tidyr", "ggfortify",
+"DT", "reshape2", "knitr", "lubridate", "shiny", "arrow", 
+"shinydashboard", "shinycssloaders", "tidyverse")
+
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
