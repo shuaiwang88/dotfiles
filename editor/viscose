@@ -1,0 +1,25 @@
+http://actuarialdatascience.com/shortcut_vscode.html
+https://marketplace.visualstudio.com/items?itemName=ptweir.python-string-sql
+https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode/44010683#44010683
+
+
+### keybiding.json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "macros.pythonExecSelectionAndCursorDown",
+        "when": "editorTextFocus && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    }
+
+]
