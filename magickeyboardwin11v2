@@ -1,0 +1,9 @@
+#Requires AutoHotkey v2.0
+
+CapsLock::LCtrl
+LWin::LAlt
+LAlt::LCtrl
+RAlt::RWin
+F12::Send "{Volume_Up}"
+F11::Send "{Volume_Down}"
+F10::Send "{Volume_Mute}" 
